@@ -1,0 +1,110 @@
+body {
+background: #b8c170;
+}
+.logo{
+    width:75%; 
+    height:95%;
+    left: 15%;
+    top: 2%;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 1
+}
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 120px 20px;
+  opacity: 0.8;
+}
+.header a {
+  font-family: 'Lilita One', cursive !important;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 28px; 
+  line-height: 25px;
+  border-radius: 4px
+}
+.header ul{
+    display: block;
+    list-style-type: none;
+    padding:0 0 0 500px;
+    left:500px;
+}
+.header li{
+    float: left;
+}
+.active{
+  background-color: #ff7bac;
+  color: black; 
+}
+.header a:hover {
+  background-color: #ff7bac;
+  color: black;
+}
+.header-right {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+.header a {
+float: none;
+display: block;
+text-align: left;
+}
+.header-right {
+background: "white";
+-webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+   -moz-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+      box-shadow: 0 0 0 4px white, 0 6px 4px black; }
+  }
+#mobile-header button.menu-toggle {
+    position: absolute;
+    left: 0;
+}
+#taco1 {
+    position:absolute;
+    top: 32px;
+    left: 6px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 4;
+    width:85%;
+    height:100%;
+}
+#welcome h1 {
+    font-family: 'Lilita One', cursive !important;
+    font-size: 65px;
+    text-align: center;
+}
+#welcome p {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:35px;
+    text-align: center;
+}
+#welcome {
+    position: absolute;
+    opacity: 0.8;
+    top: 650px;
+    left: 1575px;
+    width:40%;
+    padding-top:50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom:50px; 
+    background-color: #ffffff;
+    z-index: 4;
+    background: "white";
+-webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+   -moz-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+        box-shadow: 0 0 0 4px white, 0 6px 4px black;
+    box-shadow: 5px 0 5px -5px white, 5px 6px 4px black;
+}
+
+
+
+
+
+

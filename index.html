@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Los Molinos</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Lilita+One|Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <div class="header">
+        <div class="header-right">
+            <ul class="nav-bar"><li><a href="index.html">Home</a></li><li><a href="Menu.html">Menu</a></li>
+            </ul>
+            </div>
+                <script>
+                    var active = 0;
+                    for (var i = 0; i < document.links.length; i++) {
+                        if (document.links[i].href === document.URL) {
+                        active = i;
+                        }
+                    }
+                    document.links[active].className = 'active';
+                </script>
+        </div>
+    <img class="logo" src="LOGO.png"
+            alt="Los Molinos" 
+            align="center"/>
+    <!--align="top center"-->
+    <img src="taco.png"
+                    id="taco1"
+                    alt="taco"
+                    title="a la vez"
+         /> 
+<div id="welcome">
+        <h1><span>&#161;</span>BIENVENIDOS!</h1> <p>Established in 1988, we started off as a food truck.<br>  
+            After finding success we grew into our first brick and mortar, in the heart of Downtown Denver. <br>
+            We have been proudly serving the Auraria Campus since 2018. <br>
+    Thank you for supporting a local family business. <br>                                   
+                Handcrafted by immigrants.<br> </p> 
+    </div>
+</body>
+</html>
